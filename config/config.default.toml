@@ -1,0 +1,21 @@
+#监听端口
+port = 8199
+
+#日志目录，默认log目录
+logpath = "log"
+
+
+
+
+
+
+
+#数据库
+[database]
+    [[database.default]]
+        host     = "localhost"
+        port     = "3307"
+        user     = "root"
+        pass     = "root"
+        name     = "gadmin"
+        type     = "mysql"
